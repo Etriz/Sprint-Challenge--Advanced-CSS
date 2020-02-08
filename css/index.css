@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #5e6164;
 }
 h1,
@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #23293b;
 }
 h2 {
@@ -160,9 +160,17 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+body {
+  padding-top: 11.5rem;
+}
 nav {
   background: #f6f6f6;
   color: #454a59;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 95%;
 }
 nav .container {
   display: flex;
