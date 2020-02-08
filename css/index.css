@@ -160,6 +160,32 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  background: #f6f6f6;
+}
+nav .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 2px solid #f1f1f1;
+}
+nav .container h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Russo One";
+  color: #454a59;
+  font-size: 4.2rem;
+  padding: 2rem 0 1rem;
+}
+nav .container a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #454a59;
+  padding: 1rem 1.5rem;
+}
+nav .container a:hover {
+  text-decoration: underline;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -175,6 +201,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
