@@ -162,6 +162,7 @@ p {
 }
 nav {
   background: #f6f6f6;
+  color: #454a59;
 }
 nav .container {
   display: flex;
@@ -173,14 +174,14 @@ nav .container h1 {
   width: 100%;
   text-align: center;
   font-family: "Russo One";
-  color: #454a59;
   font-size: 4.2rem;
+  color: inherit;
   padding: 2rem 0 1rem;
 }
 nav .container a {
   text-decoration: none;
   font-size: 2rem;
-  color: #454a59;
+  color: inherit;
   padding: 1rem 1.5rem;
 }
 nav .container a:hover {
@@ -240,6 +241,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  cursor: pointer;
+  display: inline;
+  background: #22283a;
+  color: #f6f7f8;
+  padding: 0.5rem 1.5rem;
+  font-size: 2rem;
+  border: 2px solid #22283a;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn:hover {
+  background: #f6f7f8;
+  color: #22283a;
 }
 .home .walk .walk-img {
   width: 46%;
