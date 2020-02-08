@@ -60,6 +60,7 @@
     justify-content: center;
     @media @phone {
       flex-wrap: wrap;
+      margin-top: 3rem;
       padding: 2rem;
     }
 
@@ -84,8 +85,10 @@
         font-size: 2rem;
         border: 2px solid @btn-bg-color;
         border-radius: 5px;
+        transition: all 500ms;
         &:hover {
           .btncolors(@porcelain, @btn-bg-color);
+          padding: 0.5rem 2rem;
         }
         @media @phone {
           display: block;

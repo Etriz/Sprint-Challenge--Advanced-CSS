@@ -250,6 +250,7 @@ footer {
 @media screen and (max-width:500px) {
   .home .walk {
     flex-wrap: wrap;
+    margin-top: 3rem;
     padding: 2rem;
   }
 }
@@ -276,10 +277,12 @@ footer {
   font-size: 2rem;
   border: 2px solid #22283a;
   border-radius: 5px;
+  transition: all 500ms;
 }
 .home .walk .walk-text .btn:hover {
   background: #f6f7f8;
   color: #22283a;
+  padding: 0.5rem 2rem;
 }
 @media screen and (max-width:500px) {
   .home .walk .walk-text .btn {
@@ -303,4 +306,72 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.contact h2 {
+  padding: 15px;
+}
+.contact p {
+  padding: 0 15px;
+}
+.contact img {
+  border-radius: 5px;
+}
+@media screen and (max-width:500px) {
+  .contact img {
+    width: 100%;
+  }
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+form .column {
+  width: 50%;
+  padding: 0 1.5rem;
+}
+form .column div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 5% 0;
+}
+form .column div label {
+  font-size: 2.2rem;
+}
+form .column div input {
+  width: 60%;
+  margin: 0 0 1rem 0.5rem;
+}
+@media screen and (max-width:500px) {
+  form .column div input {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+form textarea {
+  width: 50%;
+}
+form .btn {
+  cursor: pointer;
+  background: #22283a;
+  color: #f6f7f8;
+  padding: 0.5rem 1.5rem;
+  font-size: 2rem;
+  border: 2px solid #22283a;
+  border-radius: 5px;
+  margin: 2rem 55% 0 auto;
+  transition: all 500ms;
+}
+form .btn:hover {
+  background: #f6f7f8;
+  color: #22283a;
+  padding: 0.5rem 2rem;
+}
+@media screen and (max-width:500px) {
+  form .btn {
+    width: 75%;
+    margin: 2rem auto 0;
+    text-align: center;
+  }
 }
