@@ -1,1 +1,31 @@
 // Navigation code here
+nav {
+  .navcolors(@nav-bg, @nav-font);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 95%;
+  .container {
+    .flex();
+    justify-content: center;
+    border-bottom: 2px solid @nav-border;
+    h1 {
+      width: 100%;
+      text-align: center;
+      font-family: "Russo One";
+      font-size: 4.2rem;
+      color: inherit;
+      padding: 2rem 0 1rem;
+    }
+    a {
+      text-decoration: none;
+      font-size: 2rem;
+      color: inherit;
+      padding: 1rem 1.5rem;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

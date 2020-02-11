@@ -1,0 +1,61 @@
+.contact {
+  h2 {
+    padding: 15px;
+  }
+  p {
+    padding: 0 15px;
+  }
+  img {
+    border-radius: 5px;
+    @media @phone {
+      width: 100%;
+    }
+  }
+}
+form {
+  .flex();
+  padding: 2rem;
+  .column {
+    width: 50%;
+    padding: 0 1.5rem;
+    // border: 2px solid red;
+    div {
+      .flex();
+      justify-content: flex-end;
+      margin: 5% 0;
+      label {
+        font-size: 2.2rem;
+      }
+      input {
+        width: 60%;
+        margin: 0 0 1rem 0.5rem;
+        @media @phone {
+          width: 100%;
+          margin: 0.5rem 0;
+        }
+      }
+    }
+  }
+  textarea {
+    width: 50%;
+  }
+  .btn {
+    cursor: pointer;
+    .btncolors(@btn-bg-color, @porcelain);
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    border: 2px solid @btn-bg-color;
+    border-radius: 5px;
+    margin: 2rem 55% 0 auto;
+    transition: all 500ms;
+    &:hover {
+      .btncolors(@porcelain, @btn-bg-color);
+      padding: 0.5rem 2rem;
+    }
+    @media @phone {
+      width: 75%;
+      margin: 2rem auto 0;
+      text-align: center;
+    }
+  }
+}
